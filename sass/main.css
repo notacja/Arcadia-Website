@@ -16,7 +16,6 @@ html {
 }
 
 .navbar {
-  padding: 1rem;
   background: white !important;
   border-bottom: solid 1px;
   border-top: solid 1px;
@@ -74,11 +73,24 @@ body > div {
 }
 
 .btn {
-  background-image: linear-gradient(to right, #E0BBE4 0%, #FEC8D8 51%, #E0BBE4 100%);
+  background-image: linear-gradient(to right, #e0bbe4 0%, #fec8d8 51%, #e0bbe4 100%);
 }
 
 .container {
   width: 100%;
+  margin: 0 0.5rem;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar span {
+  color: #957dad;
+}
+
+.navbar > .container {
+  justify-content: flex-start;
 }
 
 .navbar-collapse {
@@ -117,8 +129,8 @@ a.nav-link:hover::after {
   transform-origin: left;
 }
 
-a.navbar-brand {
-  width: 200px;
+.navbar-brand img {
+  width: 120px;
   height: auto;
 }
 
@@ -142,8 +154,41 @@ a.navbar-brand {
 }
 
 .col img {
-  width: 500px;
+  width: 420px;
   height: auto;
-  margin-right: 250px;
+  margin-right: 330px;
   margin-bottom: 100px;
+}
+
+body > div > div > div:nth-child(1) {
+  margin-bottom: 80px;
+}
+
+navbar-nav me-auto mb-2 mb-lg-0 {
+  display: flex;
+}
+
+#Saf > img,
+#Dally > img,
+#Yomax > img,
+#Ecliptics > img,
+#Moon > img,
+#Notacya > img,
+#Night > img {
+  width: 200px;
+  margin: 0;
+}
+
+#Saf > a,
+#Dally > a,
+#Yomax > a,
+#Ecliptics > a,
+#Moon > a,
+#Notacya > a,
+#Night > a {
+  padding: 20px 30px;
+}
+
+body > div > div > div:nth-child(1) {
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */

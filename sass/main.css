@@ -9,10 +9,10 @@
 body,
 html {
   font-family: "Montserrat", sans-serif;
-  margin: 2rem 2rem;
+  margin: 1.5rem 2rem;
   background-color: #e0d7ff;
   height: 100%;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .navbar {
@@ -55,8 +55,7 @@ body > div {
 
 .btn {
   margin: 10px;
-  padding: 30px;
-  font-size: 30px 60px;
+  padding: 20px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -69,7 +68,8 @@ body > div {
 }
 
 .btn:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center;
+  color: white; /* change the direction of the change here */
 }
 
 .btn {
@@ -149,8 +149,9 @@ a.nav-link:hover::after {
 .col {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 .col img {
@@ -158,10 +159,6 @@ a.nav-link:hover::after {
   height: auto;
   margin-right: 330px;
   margin-bottom: 100px;
-}
-
-body > div > div > div:nth-child(1) {
-  margin-bottom: 80px;
 }
 
 navbar-nav me-auto mb-2 mb-lg-0 {
@@ -175,20 +172,27 @@ navbar-nav me-auto mb-2 mb-lg-0 {
 #Moon > img,
 #Notacya > img,
 #Night > img {
-  width: 200px;
+  height: 300px;
+  width: auto;
   margin: 0;
 }
 
-#Saf > a,
-#Dally > a,
-#Yomax > a,
-#Ecliptics > a,
-#Moon > a,
-#Notacya > a,
-#Night > a {
-  padding: 20px 30px;
+#staff-page-row button {
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
 }
 
-body > div > div > div:nth-child(1) {
-  margin: 0;
+#staff-page-row button.btn {
+  background: #957dad;
+}
+
+#staff-page-row {
+  left: 10rem;
+  top: 17rem;
+}
+
+#staff-page-row p {
+  color: #ababab;
+  font-size: 13px;
 }/*# sourceMappingURL=main.css.map */

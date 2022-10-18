@@ -10,12 +10,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="sass/main.css">
-    <link rel="stylesheet" href="js/js.js">
+    <script src='js.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+        new Crate({
+            server: '1021022502434119740',
+            channel: '1028307482151497738'
+        })
+    </script>
     <script src="https://kit.fontawesome.com/7eb648faa6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    
 
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
@@ -43,15 +51,13 @@
                 </ul>
             </div>
         </div>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <span class="nav-link-mem" href="#">Members: 89</span>
-            </li>
-        </ul>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="staff-container">
+        <span>Get to know us!</span>
         <div class="row" id="staff-page-row">
+
+
             <div class="col" id="Saf">
                 <img src="img/Saf.png"></img>
                 <button class="btn btn-success" disabled>
@@ -59,38 +65,57 @@
                 </button>
                 <p>Owner</p>
             </div>
+
+
+            <div class="col" id="Xavi">
+                <img src="img/Xavi.png"></img>
+                <button class="btn btn-success" disabled>
+                    Xavier
+                </button>
+                <p>Co-Owner</p>
+            </div>
+
+
             <div class="col" id="Dally">
-                <img src="img/Nota.png"></img>
+                <img src="img/Dally.png"></img>
                 <button class="btn btn-success" disabled>
                     Dally
                 </button>
                 <p>Administrator</p>
             </div>
+
+
             <div class="col" id="Yomax">
                 <img src="img/Yomaxdog.png"></img>
                 <button class="btn" disabled>
-                    Yomaxdog
+                    Yomax
                 </button>
                 <p>Advisor</p>
             </div>
+
+
             <div class="col" id="Ecliptics">
-                <img src="img/Nota.png"></img>
+                <img src="img/Ecli.png"></img>
                 <button class="btn" disabled>
                     Ecliptics
                 </button>
                 <p>Moderator</p>
             </div>
+
+
             <div class="col" id="Moon">
                 <img src="img/Moon.png"></img>
                 <button class="btn" disabled>
                     Moon
                 </button>
-                <p>Moderator</p>
+                <p>Helper</p>
             </div>
+
+
             <div class="col" id="Notacya">
                 <img src="img/Nota.png"></img>
                 <button class="btn" disabled>
-                    Notacya
+                    Nota
                 </button>
                 <p>Helper</p>
             </div>
